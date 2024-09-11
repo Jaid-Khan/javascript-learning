@@ -361,10 +361,17 @@ console.log(a);*/ //Output - 81
 let b = 6;
 console.log(a == b); */ //Output - false
 
-// Equal To Operator Example
+// Equal To Comparison Operator 
 /*let a = 9;
 let b = 9;
 console.log(a==b); */ //Output - true
+
+//Equal To Comparison Operator
+/*let a = 59;
+let b = 59;
+c = (a == b);
+console.log(c); //Output - true
+console.log(typeof c); */ //Output - boolean
 
 //Not Equal To Comparison Operator
 /*let p = 15;
@@ -382,6 +389,13 @@ let q = 64;
 z = p != q;
 console.log(z); // Output - true
 console.log(typeof z) */ //Output - boolean 
+
+
+
+
+
+
+
 
 
 
