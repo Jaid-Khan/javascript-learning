@@ -356,39 +356,94 @@ console.log(a);*/ //Output - 2
 a **= 4; //Example of "**=" Operator 
 console.log(a);*/ //Output - 81
 
-// Equal To Comparison Operator
+//Comparison Operator 
+// "=="Equal To Comparison Operator
 /*let a = 5;
 let b = 6;
 console.log(a == b); */ //Output - false
 
-// Equal To Comparison Operator 
+// Equal "==" To Comparison Operator 
 /*let a = 9;
 let b = 9;
 console.log(a==b); */ //Output - true
 
-//Equal To Comparison Operator
+//Equal "==" To Comparison Operator
 /*let a = 59;
 let b = 59;
 c = (a == b);
 console.log(c); //Output - true
 console.log(typeof c); */ //Output - boolean
 
-//Not Equal To Comparison Operator
+//Not Equal "!==" To Comparison Operator
 /*let p = 15;
 let q = 16;
 console.log(p != q); */ //Output - true 
 
-//Not Equal To Comparison Operator
+//Not Equal "!==" To Comparison Operator
 /*let p = 23;
 let q = 23;
 console.log(p != q); */ //Output - false
 
-//Not Equal To Comparison Operator
+//Not Equal "!=" To Comparison Operator
 /* let p = 63;
 let q = 64;
 z = p != q;
 console.log(z); // Output - true
 console.log(typeof z) */ //Output - boolean 
+
+//Equal to & type "===" Comaparison Operator
+// Compares values and types (strict equality).
+/*let a = 5;
+let b = 5; //Strictly Checks the vale and there Data Type.if any condition are false then the output will be false/ 
+console.log(a === b); */ //Output - true
+
+//Equal to & type "===" Comaparison Operator
+// Compares values and types (strict equality).
+/*let a = 5;
+let b = 4; //Strictly Checks the vale and there Data Type.if any condition are false then the output will be false/ 
+console.log(a === b); */ //Output - false
+
+//Equal to & type "===" Comaparison Operator
+// Compares values and types (strict equality).
+/*let a = 5;
+let b = "4"; //Strictly Checks the value and there Data Type.if any condition are false then the output will be false 
+console.log(a === b); */ //Output - false
+
+//Equal to & type "===" Comaparison Operator
+// Compares values and types (strict equality).
+/*let a = "4";
+let b = "4"; //Strictly Checks the value and there Data Type.if any condition are false then the output will be false/ 
+console.log(a === b); */ //Output - true
+
+//Equal to & type "===" Comaparison Operator
+// Compares values and types (strict equality).
+/*let a = "8";
+let b = 4; //Strictly Checks the value and there Data Type.if any condition are false then the output will be false/ 
+console.log(a === b); */ //Output - false
+
+//Not Equal to & type "!==" Comaparison Operator
+// Checks inequality including type (strict inequality).
+/*let a = 4;
+let b = 4; //Strictly Checks the value and there Data Type.if any condition are false then the output will be false/ 
+console.log(a !== b); */ //Output - false
+
+//Not Equal to & type "!==" Comaparison Operator
+// Checks inequality including type (strict inequality).
+/*let a = 21;
+let b = "21"; //Strictly Checks the value and there Data Type.if any condition are false then the output will be false/ 
+console.log(a !== b); */ //Output - true
+
+//Not Equal to & type "!==" Comaparison Operator
+// Checks inequality including type (strict inequality).
+/*let a = "65";
+let b = "65"; //Strictly Checks the value and there Data Type.if any condition are false then the output will be false/ 
+console.log(a !== b); */ //Output - false
+
+//Not Equal to & type "!==" Comaparison Operator
+// Checks inequality including type (strict inequality).
+/*let a = "25";
+let b = 25; //Strictly Checks the value and there Data Type.if any condition are false then the output will be false/ 
+console.log(a !== b); */ //Output - true
 
 
 
