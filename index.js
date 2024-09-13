@@ -507,10 +507,10 @@ cond = ! a >b; // The ! (NOT) operator returns false if the statemet is true and
 console.log(cond); */ //Output - false
 
 //Logical Not "!" Comparison Operator
-let a = 56;
+/*let a = 56;
 let b = 59;
 console.log(a > b); // Output - false | Output without NOT "!" Comparison Operator
-console.log( !(a > b)); // Output - true | Output With NOT "!" Comparison Operator |The NOT "!" operator converts the true value into false and false value into true.
+console.log( !(a > b)); */ // Output - true | Output With NOT "!" Comparison Operator |The NOT "!" operator converts the true value into false and false value into true.
 
 
 
