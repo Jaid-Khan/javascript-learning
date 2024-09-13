@@ -94,7 +94,6 @@ console.log(typeof profile); // To Print Data Type Of Profile
 console.log(profile.followers);// To Print Specific Keys Value From The object.
 console.log(profile[typeof isFollow])*/ // To print Data Type of Specific Key from an object.
 
-
 // CHAPTER 02 - Operators and Conditional Statements
 
 //Comments In Javascript
@@ -239,7 +238,6 @@ let exponent = 4;
 result = 15 ** 4; //15x15x15x15
 console.log("Your Result is",result); */
 
-
 // Arithmetic Operators in Short 
 /*let a = 5;
 let b = 2;
@@ -320,7 +318,7 @@ console.log(p); // Output - 55 || In This Pre-Decrement the Decrementation done 
 console.log(q); */ // Output - 55 || In This Pre- Decrement The Decremented Value Is Assigned To The q.
 
 //Assignment Operators in JavaScript (Assign Values)
-// Types of assignment Operators - ( =, +=, -=, *=, /=, %=, **=)
+// Types of assignment Operators - ( =, +=, -=, *=, /=, %=, **=, ====, !==)
 
 // Assignment "=" Operator Examples 
 /*let a = 85;  //Example of "=" Operator
@@ -445,10 +443,74 @@ console.log(a !== b); */ //Output - false
 let b = 25; //Strictly Checks the value and there Data Type.if any condition are false then the output will be false/ 
 console.log(a !== b); */ //Output - true
 
+//Other Comparison Operators - ( >, >=, <, <= )
+// Greater Than ">" Comparison Operator
+/*let num1 = 167;
+let num2 = 159;
+console.log(num1 > num2);*/ // Output - true
 
+// Greater Than ">=" Comparison Operator
+/*let num1 = 167;
+let num2 = 159;
+console.log(num1 >= num2); */ //Outpur - true
 
+// Greater Than "<" Comparison Operator
+/*let num1 = 167;
+let num2 = 159;
+console.log(num1 < num2); */ // Output - false
 
+// Greater Than "<=" Comparison Operator
+/*let num1 = 167;
+let num2 = 159;
+console.log(num1 <= num2); */ //Outpur - false
 
+// Logical Comparison Operator - (Logical AND "&&"), (Logical OR "||"), (Logical NOT "!")
+//Logical AND "&&" Comparison Operator
+/*let a = 6;
+let b = 5;
+let cond1 = a > b;
+let cond2 = a === b; //Strictly comparison operator
+cond = cond1 && cond2; //The && (AND) operator returns true only if both operands are true. In this case, cond1 is true and cond2 is false, so cond will be false.
+console.log(cond);*/ //Output - false
+
+//Logical AND "&&" Comparison Operator
+/*let a = 56;
+let b = 56;
+cond1 = a >= b;
+cond2 = a === b;  //Strictly comparison operator
+cond = cond1 && cond2 ; //The && (AND) operator returns true only if both operands are true. In this case, cond1 is true and cond2 is also true, so cond will be true.
+console.log(cond); */ //Output - true
+
+//Logical OR "||" Comparison Operator
+/*let a = 6;
+let b = 5;
+console.log;
+let cond1 = a > b ;
+let cond2 = a === b; //Strictly comparison operator
+cond = cond1 || cond2; //The || (OR) operator returns false only if both operands are false. In this case, cond1 is true and cond2 is false, so cond will be true.
+console.log(cond); */ //Output - true
+
+//Logical OR "||" Comparison Operator
+/*let a = 89;
+let b = "56";
+cond1 = a < b;
+cond2 = a === b; //Strictly comparison operator
+cond = cond1 || cond2; //The || (OR) operator returns false only if both operands are false. In this case, cond1 is false and cond2 is also false, so cond will be false.
+console.log(cond);  */ //Output - true
+
+//Logical Not "!" Comparison Operator
+/*let a = 6;
+let b = 5;
+cond1 = a > b; //Output - true
+console.log(cond1)
+cond = ! a >b; // The ! (NOT) operator returns false if the statemet is true and there is NOT Operator then the output will be false. The NOT Operators Output Will be Always Just Opposite.
+console.log(cond); */ //Output - false
+
+//Logical Not "!" Comparison Operator
+let a = 56;
+let b = 59;
+console.log(a > b); // Output - false | Output without NOT "!" Comparison Operator
+console.log( !(a > b)); // Output - true | Output With NOT "!" Comparison Operator |The NOT "!" operator converts the true value into false and false value into true.
 
 
 
