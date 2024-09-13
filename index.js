@@ -94,6 +94,18 @@ console.log(typeof profile); // To Print Data Type Of Profile
 console.log(profile.followers);// To Print Specific Keys Value From The object.
 console.log(profile[typeof isFollow])*/ // To print Data Type of Specific Key from an object.
 
+//Example Of Object Data Type 
+/*const data = { 
+    name : "Tony Stark",
+    age : 32,
+    gender : "Male",
+    bloodGroup : "B+" ,
+    phoneNumber : 9876543210 ,
+};
+console.log(data); // To Print All, Inside The Object Name Data
+console.log(data ["age"]); // To Print Specific Value of a key inside an object. 
+console.log(data ["phoneNumber"]); */ // To Print Specific Value of a key inside an object.
+
 // CHAPTER 02 - Operators and Conditional Statements
 
 //Comments In Javascript
@@ -512,8 +524,35 @@ let b = 59;
 console.log(a > b); // Output - false | Output without NOT "!" Comparison Operator
 console.log( !(a > b)); */ // Output - true | Output With NOT "!" Comparison Operator |The NOT "!" operator converts the true value into false and false value into true.
 
+//Conditional Statement - To Improve some conditions in the CODE.
+// if Conditional Statement
+/*let mode = "light-mode"; //let mode = "dark-mode"
+let color ;
+if (mode ==="dark-mode"){
+    color="black";
+} 
+if (mode ==="light-mode"){
+    color="light";
+}
+console.log(color); */ //Output - light || To Print The Color
 
+// if Conditional Statement
+/*let age = 16; 
+if (age >= 18){
+    console.log("You are Eligible to Vote");
+}
+if (age < 18){
+    console.log("You are not Eligible to Vote");
+}; */
 
+// if Conditional Statement with user input
+/*let age = prompt("Enter Your Age"); //To get the input from the user.
+if (age >= 18){
+    console.log("You are Eligible to Vote");
+}
+if (age < 18){
+    console.log("You are not Eligible to Vote");
+}; */
 
 
 
