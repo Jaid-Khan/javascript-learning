@@ -572,4 +572,18 @@ if (age < 70){
     console.log("You are not Eligible for Pension");
 }; */
 
+// if else Conditional Statement
+/*let score = 32;
+if (score >= 33) {
+    console.log("Congrats! You have passed the exam.");
+}else{
+    console.log("Sorry! You have failed the exam.");
+} */ //Sorry! You have failed the exam.
 
+// if else Conditional Statement
+/*let score = prompt("Enter Your Score");
+if (score >= 33) {
+    console.log("Congrats! You have passed the exam.");
+}else{
+    console.log("Sorry! You have failed the exam.");
+}/*
