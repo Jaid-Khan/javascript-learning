@@ -554,5 +554,22 @@ if (age < 18){
     console.log("You are not Eligible to Vote");
 }; */
 
+// if Conditional Statement 
+/*let age = 75;
+if (age >= 70){
+    console.log("You are Eligible for Pension");
+}
+if (age < 70){
+    console.log("You are not Eligible for Pension");
+}; */
+
+// if Conditional Statement with user input
+/*let age = prompt("Enter Your Age");  //To get the input from the user.
+if (age >= 70){
+    console.log("You are Eligible for Pension");
+}
+if (age < 70){
+    console.log("You are not Eligible for Pension");
+}; */
 
 
