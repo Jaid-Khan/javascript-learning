@@ -586,4 +586,19 @@ if (score >= 33) {
     console.log("Congrats! You have passed the exam.");
 }else{
     console.log("Sorry! You have failed the exam.");
-}/*
+}*/
+
+//if - else if - else Conditional Statement 
+/*let price = 1050;
+if (price >= 500){
+    console.log("You get a discount of 10%");
+}
+else if (price >= 200 && price < 500){
+    console.log("You get a discount of 5%");
+}
+else{
+    console.log("No discount");
+}*/
+
+
+
