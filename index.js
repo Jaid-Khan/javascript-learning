@@ -4,7 +4,7 @@
 // console.log("Hello World!"); //console.log is used to print the console output to the screen
 
 // Variables in Javascript || In javascript there are three types of Variables- let, const and var.
- 
+
 // var - can be redeclared and updated. A global scope Variable.
 // var number = 49;
 
@@ -69,7 +69,7 @@ console.log(student); // To Print The Keys and Their Valus inside the Object
 console.log("The data type is",typeof student); // To Print the specific value of a 
 console.log(student["fullname"]); //To Print The Sepcific Key Value.
 console.log(student["age"]);*/ // or console.log(student.age) //To Print The Sepcific Key Value.
- 
+
 //Practice Question No.- 01
 /*const product = {  //object
     title : "ballpen", //key and values
@@ -599,6 +599,75 @@ else if (price >= 200 && price < 500){
 else{
     console.log("No discount");
 }*/
+
+//if - else if - else Conditional Statement 
+/*let age = prompt("Enter Your Age ");
+if (age >= 75) {
+    console.log("You Are A Senior Citizen");
+}
+else if (age >= 16 && age <=74) {
+    console.log("You Can vote");
+}
+else {
+    console.log("You Can't Vote");
+}*/
+
+//if - else if - else Conditional Statement
+/*let age = 6;
+if (age < 18){
+    console.log("You are a Child !!");
+}
+else if (age >= 18  && age <= 55){
+    console.log("You are an Adult Person!!!");
+} 
+else {
+    console.log("You are a Senior citizen!!!");
+}*/
+
+//if - else if - else Conditional Statement
+// Qs. - Get User To input a number using prompt,Check if Number is multiple of 5 or Not.
+/*let num = prompt("Enter Your Number ");
+if (num % 5 === 0){
+    console.log("The Number is multiply of 5");
+}
+else{
+    console.log("Number is Not Multiply of 5");
+}*/
+
+//if - else if - else Conditional Statement
+// Qs. - Get User To input a number using prompt,Check if Number is multiple of 3 or Not.
+/*let num = prompt("Enter Your Number ");
+if (num % 3 === 0){
+    console.log("The Number is Multiply of 3");
+}
+else{
+    console.log("Number is Not Multiply of 3");
+}*/
+
+//if - else if - else Conditional Statement
+// Qs. - Write a Code Which can give grades to student according to their scores.
+// Details are - [90 - 100, A], [70 - 89, B], [60 - 69, C], [50 - 59, D], [0 - 49, F].
+/*let score = 96;
+let grade;
+if (score >= 90 && score <= 100 ){
+    grade = "A";
+}
+else if (score >= 70 && score <= 89 ){
+    grade = "B";
+}
+else if (score >= 60 && score <= 69 ){
+    grade = "C";
+}
+else if (score >= 50 && score <= 59 ){
+    grade = "D";
+}
+else if (score >= 0 && score <= 49 ){
+    grade = "F";
+}
+console.log("Your Grade is ", grade);*/
+
+
+
 
 
 
