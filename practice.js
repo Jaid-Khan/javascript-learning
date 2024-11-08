@@ -65,7 +65,6 @@
 // console.log(student["name"]);
 // console.log(student["age"]);
 
-
 // let student = {
 //     name : "Tony Stark",
 //     age : 25,
@@ -174,7 +173,6 @@
 // console.log(++x); //Output- 112
 // console.log(x++); //Output- 112
 // console.log(x) //Output- 113
-
 
 // Post Decrement 
 // let x = 98;
@@ -302,7 +300,7 @@
 // let a = 976;
 // let b = 874;
 // console.log(a >= b); // Outpur - true
- 
+
 // let a = 2876;
 // let b = 8645;
 // console.log(a >= b); // Outpur - false
@@ -412,4 +410,171 @@
 // let x = 874;
 // let y = 547;
 // console.log(!(x > y)); //Output - false
+
+// if else statements
+
+// let age = 7;
+// if (age>=18){
+//     console.log("You are an Adult");
+// }
+// else{
+//     console.log("You are a Minor")
+// }
+
+// let score = 69;
+// if (score >= 90 && score <=100){
+//     console.log("Grade: A");
+// }
+// else if (score >= 80 && score <=89){
+//     console.log("Grade: B");
+// }
+// else if (score >= 70 && score <=79){
+//     console.log("Grade: C");
+// }
+// else if (score >= 60 && score <=69){
+//     console.log("Grade: D");
+// }
+// else{
+//     console.log("You are Failed")
+// }
+
+// let tempreture = 20;
+// if (tempreture >= 30){
+//     console.log("Its a Hot Day");
+// }
+// else if(tempreture <= 10){
+//     console.log("Its a Cold Day");
+// }
+// else{
+//     console.log("Its a Pleasant Day")
+// }
+
+// let number = 11;
+// if (number % 2 === 0){
+//     console.log("Number is Even");
+// }
+// else{
+//     console.log("Number is Odd");
+// }
+
+// let number = 5;
+// if (number % 2 !== 0){
+//     console.log("Number is Odd");
+// }
+// else{
+//     console.log("Number is Even")
+// }
+
+// Loops 
+
+//For Loop
+// for (let i = 1; i<= 10; i++){
+//     console.log("i =",i)
+// }
+
+// for (let n = 1; n <= 100; n++){
+//     console.log("n =", n)
+// }
+
+// for (let x = 1; x <= 20; x++){
+//     console.log("x =", x)
+// }
+
+// for(let i = 0; i<=100; i++){
+//     if(i % 2 == 0)
+//     console.log( i ,"Is Even");
+// else{
+//     console.log( i ,"is odd")
+// }
+// }
+
+// let sum = 0;
+// let n = 5;
+// for(let i = 0; i<=n; i++){
+//     sum = sum+i
+// }
+// console.log("Total is", sum);
+
+// Print Table of 2 Using For Loop
+// for (let i = 1; i<=10; i++){
+//     console.log("2 x", i,"=",i*2)
+// }
+
+// Printing odd & Even Number From 1 to 20
+// for (let i = 1; i<=20;i++){
+//     if(i % 2 === 0){
+//         console.log(i,"Number Is Even");
+//     }
+//     else{
+//         console.log(i,"Number is Odd");
+//     }
+// }
+
+// let num = prompt("Enter Your Nuber");
+// for (let i = 1; i<=10; i++){
+//     console.log(num, "x =",num*i);
+// }
+
+// while loop
+// let i = 1;
+// while(i<=5){
+//     console.log(i);
+//     i++;
+// }
+
+// let i = 1;
+// while(i<=20){
+//     if(i % 2 === 0){
+//         console.log(i,"is Even");
+//     }
+//     else{
+//         console.log(i,"Is Odd");
+//     }
+//     i++;
+// }
+
+// let n = 6;
+// let sum = 0;
+// let i = 1;
+// while(i<=n){
+//     sum = sum + i;
+//     console.log(sum);
+//     i++ ;
+// }
+
+//Printing table using while loop
+// let num = 2;
+// let i = 1;
+// while(i<=10){
+//     console.log(num,'x =',num*i);
+//     i++;
+// }
+
+//Printing table from user input
+// let num = prompt("Enter Your Number");
+// let i = 1;
+// while(i<=10){
+//     console.log(num,'x =',num*i);
+//     i++;
+// } 
+
+// do-while loop
+// let i = 1;
+// do{
+//     console.log(i);
+//     i++
+// }while(i<=10);
+
+// Printing Table of 2 Using do-while loop
+// let i =1;
+// let num = 2;
+// do{  
+//     console.log(num,"x",i,"=",num*i);
+//     i++;
+// }while(i<=10);
+
+
+
+
+
 

@@ -666,5 +666,146 @@ else if (score >= 0 && score <= 49 ){
 }
 console.log("Your Grade is ", grade);*/
 
+// LOOPS 
+// Loops are Used To Execute a piece of code gain & again
+// Types Of Loops : for loop, while loop, do-while loop, for-of loop, for-in loop.
+
+// FOR LOOP
+// for (initialization; condition ; increment){
+//Work here
+// }
+
+// for (let i = 1; i <= 5; i++){
+//     console.log("Hello World")
+// }
+
+// let sum = 0;
+// for(let i = 1; i <=5; i++){
+//     sum = sum+i
+// }
+// console.log(sum)
+
+// CLACULATE SUM OF 01 TO n
+// let sum = 0;
+// let  n = 6;
+// for(let i = 1; i<=n; i++ ){
+//     sum= sum+i;
+// }
+// console.log(sum);
+
+// Print 1 to 5
+// for (let i = 1; i <=5; i++ ){
+//     console.log("i =", i)
+// }
+
+// INFINITE LOOP Using For Loop
+// NOTICE: This loop is dangerous
+// for (let i = 0; i >=0 ; i++){
+//     console.log("i =", i);
+// }
+
+// while loop
+// initilization;
+// while(condition){
+//     // code block to execute
+//     increment;
+// }
+
+// Example
+// let i = 0;
+// while (i < 5){
+//     console.log(i);
+//     i++;
+// }
+
+// Print 1 to 5 Using while loop
+// let i = 1;
+// while(i<=5){
+//     console.log("i =",i);
+//     i++;
+// }
+
+// do-while loop
+// initilation;
+// do{
+//     //Code Block To Execute;
+//     increment;
+// }while(condition);
+
+// let i = 1;
+//  do{
+//     console.log("Apna College");
+//     i++;
+//  }while(i<=10);
+
+// let i = 1;
+// do{
+//     console.log("i =", i)
+//     i++;
+// }while(i<=5);
+
+// Example
+// let i = 0;
+// do {
+//     console.log(i);
+//     i++;
+// }while(i<=5);
+
+//for-of loop
+// for(const element of iterable){
+//     //Code Block To Execute;
+// }
+
+// let str = "Apna College";
+// for (let i of str){
+//     console.log("i =",i);
+// }
+
+// let str = "javascript";
+// for (let i of str){
+//     console.log("i =",i)
+// }
+
+// let str = "javascript";
+// let size = 0;
+// for (let i of str){
+//     console.log("i =",i);
+//     size++;
+// }
+// console.log(size);
+
+// Example
+// const fruits = ['apple', 'banana', 'cherry'];
+// for (let fruit of fruits){
+//     console.log(fruit);
+// } 
+
+// for-in loop
+// for(const key in object){
+//     //Code To Execute
+// }
+
+// let student = {
+//     name:"Rahul Kumar",
+//     age:20,
+//     cgpa:7.8,
+//     isPass:true
+// };
+// for (let key in student){
+//     console.log(key); //To print key in object
+//     console.log("key =", key,"value =",student[key]); //to print the value of an object
+// }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
