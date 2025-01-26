@@ -465,6 +465,16 @@
 //     console.log("Number is Even")
 // }
 
+// Guess the number game
+// let num = 25;
+// let userNum = prompt('Enter Your Number');
+// if (userNum != num){
+//     console.log("You Entered Wrong Number");
+// }
+// else{
+//     console.log("You Entered Correct Number");
+// }
+
 // Loops 
 
 //For Loop
@@ -486,6 +496,11 @@
 // else{
 //     console.log( i ,"is odd")
 // }
+// }
+
+// for loop practice 
+// for (i = 1; i<=10; i++){
+//     console.log(i);
 // }
 
 // let sum = 0;
@@ -520,6 +535,13 @@
 // while(i<=5){
 //     console.log(i);
 //     i++;
+// }
+
+// while loop practice 
+// let i = 1;
+// while (i <= 10){
+//     console.log(i);
+//     i++
 // }
 
 // let i = 1;
@@ -562,8 +584,15 @@
 // let i = 1;
 // do{
 //     console.log(i);
-//     i++
+//     i++;
 // }while(i<=10);
+
+
+// let i = 1;
+// do {
+//     console.log(i);
+//     i++;
+// }while(i<= 10);
 
 // Printing Table of 2 Using do-while loop
 // let i =1;
@@ -573,8 +602,198 @@
 //     i++;
 // }while(i<=10);
 
+//For - OF Loop
+// let str = "Javascript";
+// let size = 0;
+// for (i of str){
+//     console.log(i);
+//     size++;
+// }
+// console.log(size);
+
+// let str = "Jaid Khan";
+// let size = 0;
+// for (i of str){
+//     console.log("i =",i);
+//     size++;
+// }
+// console.log("size of", size);
+
+// let name = "LEARNING JAVASCRIPT";
+// let size = 0;
+// for (i of name){
+//     console.log(i);
+//     size++;
+// }
+// console.log(size);
+
+//for of loop 
+// let marks = [54, 65, 78, 58, 98];
+// for(mark of marks){
+//     console.log("The Mark is", mark);
+// }
+
+// let nameUser = "TonyStark";
+// for(char of nameUser){
+//     console.log(char);
+// }
+
+// for in loop
+// let person = {
+//     name: "Tony",
+//     age: 24,
+//     isPass: true
+// };
+// for (user in person){
+//     console.log(`${user} is: ${person[user]}`);
+// }
+
+//Strings
+// let lang = "javascript";
+// console.log(lang);
+// console.log(lang.length);
+// console.log(lang.toLowerCase());
+// console.log(lang.toUpperCase());
+// console.log(lang[4]);
+// console.log(lang.slice(2, 6));
+
+// let str1 = "Java";
+// let str2 = "Script";
+// console.log(str1.concat(str2));
+
+// let str = "hello";
+// console.log(str.replace("h", "m"));
+
+// let userInput = prompt("Enter Your Full Name Without Space");
+// console.log(`@${userInput}${userInput.length}`);
+
+//String Escape Character
+// console.log("Tony\nStark");
+// console.log("Tony\tStark");
+
+//Array
+// let marks = [56, 54, 87, 96, 78];
+// console.log(marks);
+
+// let marks = [56, 54, 87, 96, 78];
+// console.log(marks[4]);
+
+// let marks = [56, 54, 87, 96, 78];
+// console.log(marks);
+// marks[0] = 97;
+// console.log(marks);
+
+// let marks = [56, 54, 87, 96, 78];
+// console.log(marks.length);
+
+// let cities = ["Pune", "Delhi","Chandigarh", "Mumbai", "Bhopal"];
+// for (let city of cities){
+//     console.log(city);
+//     console.log(city.length);
+//     console.log(city.toUpperCase());
+//     console.log(city.toLowerCase());
+// }
+
+// let marks = [56, 54, 87, 96, 78];
+// for (i = 0; i < marks.length; i++){
+//     console.log(`Index = ${i} and Value = ${marks[i]} `)
+// }
+
+// let marks = [56, 54, 87, 96, 78];
+// for (mark of marks){
+//     console.log(mark)
+// }
+
+// let marks = [56, 54, 87, 96, 78];
+// let sum = 0;
+// for (let mark of marks){
+//     sum += mark;
+//     sum++;
+// }
+// console.log(sum);
+// avg = sum / marks.length;
+// console.log(`The Average Marks of the Class is ${avg}`);
 
 
+// let marks = [56, 54, 87, 96, 78];
+// let sum = 0;
+// for (let i = 0; i < marks.length ; i++){
+//     sum += marks[i];
+// }
+// console.log(sum);
+// avg = sum / marks.length;
+// console.log(`The Average Marks of the Class is ${avg}`);
 
+//Qs. For a Given Array with price of 5 items [250, 645, 300, 900, 50]. Al item have an offer of 10% of on them.
+//Change the array to store the final price after applying offer
+// let items = [250, 645, 300, 900, 50];
+// for (i = 0; i < items.length; i++){
+//     console.log(`Original Price is ${items[i]} `)
+//     let offer = items[i] / 10;
+//     items[i] = items[i] - offer; 
+//     console.log(`Price After The Discount is ${items[i]}  `);
+// }
 
+// using for of loop
+// let items = [250, 645, 300, 900, 50];
+// let i = 0;
+// for (let val of items){
+//     console.log(`Value of the item is ${val}`);
+//     offer = items[i] / 10;
+//     items[i] = items[i] - offer;
+//     console.log(`Value After The Discount is ${items[i]}  `)
+//     i++;
+// }
 
+//Array Methods
+// let vegetables = ["Tomato", "Potato", "Onion", "Cabbage", "Cauliflower"];
+// vegetables.unshift("Ladiesfinger"); //unshift() 
+// console.log(vegetables); 
+
+// let vegetables = ["Tomato", "Potato", "Onion", "Cabbage", "Cauliflower"];
+// vegetables.shift(); //shift
+// console.log(vegetables);
+
+// let veg1 = ["Tomato", "Potato", "Ginger"];
+// let veg2 = ["Garlic", "Ladiesfinger", ];
+// console.log(veg1.concat(veg2)); //concat()
+
+// let arr = [1, 2, 3, 4, 5, 6, 7];
+// arr.push(8); //push()
+// console.log(arr)
+
+// let arr = [1, 2, 3, 4, 5, 6, 7];
+// arr.pop(); //pop()
+// console.log(arr)
+
+// let arr = [1, 2, 3, 4, 5, 6, 7];
+// console.log(arr.toString()); //toString()
+
+// let arr = [1, 2, 3, 4, 5, 6, 7];
+// console.log(arr.slice(2, 5)); //slice()
+
+// let arr = [1, 2, 3, 4, 5, 6, 7];
+// arr.splice(2, 1, 9); //splice
+// console.log(arr);
+
+// let arr = [1, 2, 3, 4, 5, 6, 7];
+// arr.splice(2, 0 ,8); //splice
+// console.log(arr)
+
+// let arr = [1, 2, 3, 4, 5, 6, 7];
+// arr.splice(3,1); //splice
+// console.log(arr);
+
+// Qs. Create an array to store companies ["Bloomberg", "Microsft", "Uber", "Google", "IBM", "Netflix"]
+// a) Remove the first company from the array
+// b) Remove Uber and add Ola in its place
+// c) add Amazon at the End
+
+// let companies = ["Bloomberg", "Microsft", "Uber", "Google", "IBM", "Netflix"];
+// console.log(companies)
+// companies.shift();
+// console.log(companies);
+// companies.splice(1, 1, "Ola");
+// console.log(companies);
+// companies.push("Amazon");
+// console.log(companies)

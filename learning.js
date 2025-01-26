@@ -796,13 +796,276 @@ console.log("Your Grade is ", grade);*/
 //     console.log("key =", key,"value =",student[key]); //to print the value of an object
 // }
 
+//To Print All the numbers from 0 to 100 
+// for (i = 0; i <= 100;  i++){
+//     console.log("i =",i);
+// }
 
+// To Print Even Numbers From 0 to 100
+// for (let i = 0; i<= 100; i++ ){
+//     if(i % 2 ===0){
+//         console.log("i =", i);
+//     }
+// } 
 
+//To Print Odd Numbers From 0 to 100
+// for (let i = 0; i <= 100; i++){
+//     if (i % 2 !== 0){
+//         console.log("i =", i);
+//     }
+// }
 
+//Guess The Number Game
+// let gameNum = 25;
+// let userNum = prompt("Enter Your Number");
+// while(userNum != gameNum){
+//     userNum = prompt("You Entered Wrong Number Try Again a Different Number");
+// }
+// console.log("Congratulations ! You Entered The Right Number");
 
+//Strings 
+//String is a sequence of characters used to represent text
 
+// let str = "javascript" //Declaring the string.
+// console.log(str.length); // To print the length of a string.
+// console.log(str[6]); // To Print The Specific Character of a string using their index values.
 
+// Template Literals 
+// let obj = {
+//     item: "pen",
+//     price: 10,
+// };
+// console.log(`the ${obj.item} price is ${obj.price}`);
 
+// let info = `The price of the pen is ${5+3+2}`;
+// console.log(info);
+
+//String Escape Characters
+// console.log("Tony\nStark") // New Line Escape Character
+// console.log("Tony\tStark"); //Tab Space Escape Character
+
+//String Methods in Javascript 
+// These are built in functions to manipulate a string.
+// str.toUpperCase, str.toLowercase, str.trim()[removes whitespaces], str.slice(start, end?)[Returns part of string], str.concat(str2)[Joins str2 with str1], str.replace(searchVal, newVal), str,charAt(idx.)
+
+// let str = "Apna College";
+// console.log(str.toUpperCase()); //Example of toUpercase 
+
+// let str = "Apna COllege";
+// let newStr = str.toUpperCase(); //Example of toUpercase 
+// console.log(str);
+// console.log(newStr);
+
+// let str = "Apna College";
+// str = str.toUpperCase(); //Example of toUpercase 
+// console.log(str);
+
+// let str = "Apna College";
+// str = str.toLowerCase(); //Example of toLowercase
+// console.log(str);
+
+// let str = "     Apna College  js     "
+// console.log(str.trim()); // Trim is used to remove extra spaces from start and end only.
+
+// let str = "hello";
+// console.log(str.slice(0, 3)); //Example of slice [slice uses index values]
+
+// let str = "hello";
+// console.log(str.slice(2));  //Example of slice [slice uses index values] if we don't provide ending value then it will go to last from start index value. 
+
+// let str1 = "Apna";
+// let str2 = "College";
+// console.log(str1.concat(str2)); //adds to strings [joins str2 with str1]
+
+// let str1 = "apna";
+// let str2 = "college";
+// result = str1.concat(str2); //Example of cancat string method
+// console.log(result);
+
+// let str = "hello";
+// console.log(str.replace("h", "m")); //Example of replace string method
+
+// let str = "hello";
+// console.log(str.replace("llo", "lp")); //Example of replace string method
+
+// let str = "iloveJS";
+// console.log(str.charAt(5)); // To Fnd The Character inside the string using their index values.
+
+// Qs. - Prompt the user to enter their full name. Generate a username from them based on the input. 
+// Start username with @, followed by their fullname and ending with the fullname length.
+
+// let fullName = prompt("Enter Your Full Name Without Spaces");
+// let userName = "@" + fullName + fullName.length;
+// console.log(userName); 
+
+//Arrays
+//Arrays In JS - Collection of items
+
+// Exmaples of arrays
+// let heroes = ["ironman", "hulk", "thor", "batman"];
+// let marks = [96, 75, 48, 83, 66];
+// let info = ["rahul", 86, "Delhi"];
+
+// let marks = [76, 87, 54, 65, 90];
+// console.log(marks);
+// console.log(marks.length);
+
+// let heros = ["ironman", "hulk", "thor", "batman", "Spiderman"];
+// console.log(heros)
+
+// let marks = [34, 78, 95, 80, 65];
+// marks[0] = 43;
+// console.log(marks);
+
+//Loops Over An Array
+// Printing An Array Using for loop
+// let heros = ["ironman", "hulk", "thor", "batman", "Spiderman"];
+// for (idx = 0; idx < heros.length; idx++){
+//     console.log(heros[idx]);
+// };
+
+// // for of loop in array
+// let heros = ["ironman", "hulk", "thor", "batman", "spiderman"];
+// for (let hero of heros){
+//     console.log(hero);
+// };
+
+// for of loop in array 
+// let cities =  ["pune", "agra", "mumbai", "delhi", "Nagpur"];
+// for (let city of cities){
+//     console.log(city.toUpperCase());
+// };
+
+// Qs. For a Given Array wih Amrk fo students = [85, 97, 44, 37, 76, 60]
+// Find the average marks of entire class.
+// let marks = [85, 97, 44, 37, 76, 60];
+// let sum = 0;
+// for (let val of marks){
+//     sum += val;
+// }
+// let avg = sum / marks.length;
+// console.log(`Average Marks OF Entire Class = ${avg}`)
+
+// Calculating Average Marks Using For Loop 
+// let marks = [85, 97, 44, 37, 76, 60];
+// let sum = 0;
+// for (i = 0; i < marks.length; i++){
+//     sum += marks[i];
+// };
+// console.log(sum);
+// let avg = sum / marks.length;
+// console.log(`The Average marks of entire class = ${avg}`);
+
+//Qs. For a Given Array with price of 5 items [250, 645, 300, 900, 50]. Al item have an offer of 10% of on them.
+//Change the array to store the final price after applying offer
+//Used for of loop 
+// let items = [250, 645, 300, 900, 50];
+// let i = 0;
+// for (let val of items){
+//     console.log(`val at ${i} = ${val}`);
+//     let offer = val / 10 ;
+//     items[i] = items[i] - offer;
+//     console.log(`The Proce after Discout is ${items[i]}`)
+//     i++;
+// };
+
+//Previous Question Solved!
+// Used For Loop
+// let items = [250, 645, 300, 900, 50];
+// for (let i = 0; i < items.length; i++){
+//     console.log(`The Price at index value ${i} = ${items[i]}`);
+//     let offer = items[i] / 10;
+//     items[i] = items[i] - offer;
+//     console.log(`This final Price after the discount is ${items[i]}`)
+// }
+ 
+// ARRAY METHOD
+//Array Mehtods - push(), pop(), toString, Concat(), unshift(), shift(), slice(), splice().
+
+// let foodItems =  ["Potato", "Tomato", "Onion", "Litchi", "Apple"];
+// foodItems.push("Ginger", "Strawberry"); // push() - aad to end
+// console.log(foodItems);
+
+//  let foodItems =  ["Potato", "Tomato", "Onion", "Litchi", "Apple"];
+// foodItems.pop(); // pop() - Delete from end & Return
+// console.log(foodItems);
+
+// let foodItems =  ["Potato", "Tomato", "Onion", "Litchi", "Apple"];
+// console.log(foodItems);
+// let deletedItem = foodItems.pop(); // pop() - Delete from end & Return
+// console.log(foodItems);
+// console.log(`Deleted item = ${deletedItem}`);
+
+// let foodItems =  ["Potato", "Tomato", "Onion", "Litchi", "Apple"];
+// console.log(foodItems.toString()); //toString() - Convert Array to String
+
+// let marks = [89, 87, 65, 95, 83];
+// console.log(marks.toString()); //toString() - Convert Array to String
+
+// let marvelHeroes = ["thor", 'spiderman', "ironman"];
+// let dcHeroes = ["superman", "batman"];
+// let heroes = marvelHeroes.concat(dcHeroes);  //concat() - Joins Multiple Arrays and Returns Result
+// console.log(heroes);
+
+// let marvelHeroes = ["thor", 'spiderman', "ironman"];
+// let dcHeroes = ["superman", "batman"];
+// let indianHeroes = ["shaktiman", "krish"];
+// console.log(marvelHeroes.concat(dcHeroes, indianHeroes));  //concat() - Joins Multiple Arrays and Returns Result
+
+// let marvelHeroes = ["thor", 'spiderman', "ironman"];
+// marvelHeroes.unshift("Antman"); // unshift() - Add to Start
+// console.log(marvelHeroes);
+
+// let marvelHeroes = ["thor", 'spiderman', "ironman"];
+// marvelHeroes.shift(); // shift() - Delete from start & Return
+// console.log(marvelHeroes); 
+
+// let marvelHeroes = ["thor", 'spiderman', "ironman", "antman", "hulk"];
+// console.log(marvelHeroes.slice(1, 3)) // slice() - returns a piece of array using index values.
+
+//  let arr = [1, 2, 3, 4, 5, 6, 7];
+//  arr.splice(2, 2, 101, 102); //splice () - (indexvalue, items to be deleted from given index, added new items(replaced) from deleted items)
+//  console.log(arr);
+
+//Add an item using splice 
+// let arr = [1, 2, 3, 4, 5, 6, 7];
+// arr.splice(2, 0, 101 ); //splice() - index number 2, dleted items 0, added 101(at index number 2)
+// console.log(arr);
+
+//Delete an item using splice
+// let arr = [1, 2, 3, 4, 5, 6, 7];
+// arr.splice(3, 1); // splice() - at index 03 element 01 got deleted 
+// console.log(arr);
+
+// Replace an item using splice 
+// let arr = [1, 2, 3, 4, 5, 6, 7];
+// arr.splice(3, 1, 101);
+// console.log(arr);
+
+// let arr = [1, 2, 3, 4, 5, 6, 7];
+// let del = arr.splice(4);
+// console.log(`deleted item = ${del}`);
+// console.log(`left item after splice from 4th index = ${arr}`);
+ 
+// Qs. Create an array to store companies ["Bloomberg", "Microsft", "Uber", "Google", "IBM", "Netflix"]
+// a) Remove the first company from the array
+// b) Remove Uber and add Ola in its place
+// c) add Amazon at the End
+
+// a) 
+// let companies = ["Bloomberg", "Microsft", "Uber", "Google", "IBM", "Netflix"];
+// companies.shift();
+// console.log(companies);
+
+// b)
+// let companies = ["Bloomberg", "Microsft", "Uber", "Google", "IBM", "Netflix"];
+// companies.splice(2, 1, "Ola");
+// console.log(companies);
+
+// c)
+// let companies = ["Bloomberg", "Microsft", "Uber", "Google", "IBM", "Netflix"];
+// companies.push("Amazon");
+// console.log(companies);
 
 
 
