@@ -978,7 +978,7 @@ console.log("Your Grade is ", grade);*/
 //     items[i] = items[i] - offer;
 //     console.log(`This final Price after the discount is ${items[i]}`)
 // }
- 
+
 // ARRAY METHOD
 //Array Mehtods - push(), pop(), toString, Concat(), unshift(), shift(), slice(), splice().
 
@@ -1046,7 +1046,7 @@ console.log("Your Grade is ", grade);*/
 // let del = arr.splice(4);
 // console.log(`deleted item = ${del}`);
 // console.log(`left item after splice from 4th index = ${arr}`);
- 
+
 // Qs. Create an array to store companies ["Bloomberg", "Microsft", "Uber", "Google", "IBM", "Netflix"]
 // a) Remove the first company from the array
 // b) Remove Uber and add Ola in its place
@@ -1067,8 +1067,99 @@ console.log("Your Grade is ", grade);*/
 // companies.push("Amazon");
 // console.log(companies);
 
+// Functions
+// Block of code that performs a specific task, can be invoked whenever needed.
 
+// function myFunction(){ //Declared a function
+//     console.log("Welcome to apna college!");
+//     console.log("We are learning JS");
+// }
+// myFunction(); //Calling the function or invoke
 
+// function myFunction(msg){ //Where (msg) is a parameter
+//     console.log(msg);
+// }
+// myFunction("I love JS"); //where i love js is an argument
 
+// function myFunction(msg, n){
+//     console.log(msg * n);
+// }
+// myFunction("i love JS", 100); //output - NaN (Not a Number) it means you can't muliply a number with string. 
 
+// lets create a function to add two numbers 
+// function sum(num1, num2){
+//     console.log(num1+num2);
+// }
+// sum(230, 650);
 
+// function sum(x, y){
+//     s = x + y;
+//     return s; // return statement
+// }
+// let val = sum(3, 4);
+// console.log(val);
+
+// function sum(x, y){
+//     return x+y;
+// }
+// sum = sum(230, 450);
+// console.log(sum);
+
+// Arrow Functions     //MODERN JS
+//Compact way of writing a function
+// const functionName = (param1, param...) => {
+//     //do some work
+// }
+
+// const sum = (a, b) => {
+//     return a + b;
+// }
+
+// const arrowSum = (a, b) => { 
+//     console.log(a + b); //calclating the sum of the function
+// }
+// arrowSum(3, 4); //Calling the function using there name 
+
+// const mulFunction = (x, y) => {
+//     console.log(x * y);
+// }
+// mulFunction(23, 5); //Passing the arguments - 23, 5
+
+//OR
+
+// const mulFunction = (x, y) => {
+//     return x * y; //Arrow function using return.
+// }
+// // calling in brouser using - mulFunction(4, 3)
+
+// let printHello = () => {   // Arrow function without parameter
+//     console.log("Hello");
+// }
+// printHello();
+
+// Printing again in single line using arrow function 
+// const printHello = () => console.log("hello");
+// printHello();
+
+// Qs- Create a function using the "fuction" keyword that takes a string as an argument & returns the number of vowels in the string.
+// function countVowels(str) {
+//     let count = 0;
+//     for (const char of str) {
+//         if (char === "a" || char === "e" || char === "i" || char === "o" || char === "u")
+//         {
+//         count++;
+//         }
+//     }
+//     return count;
+// }
+
+// Using Arrow function
+// const countVowels = (str) =>{
+//     count = 0;
+//     for (char of str){
+//         if (char === "a" || char === "e" || char === "i" || char === "o" || char === "u"){
+//             count++;
+//         }
+//     }
+//     return count;
+// }

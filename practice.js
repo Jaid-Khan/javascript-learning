@@ -796,4 +796,67 @@
 // companies.splice(1, 1, "Ola");
 // console.log(companies);
 // companies.push("Amazon");
-// console.log(companies)
+// console.log(companies);
+ 
+// Function 
+// function myfunction(msg){
+//     console.log(msg);
+// }
+// myfunction("Hello JS");
+
+// function myFunction(){
+//     console.log("Hello JavaScript");
+// }
+// myFunction();
+
+// function myFunction(msg, n){
+//     console.log(msg * n);
+// }
+// myFunction(); // output - NaN (can't multiply a number with string)
+
+//add function
+// function addFunc(x, y){
+//     console.log(x + y);
+// }
+// addFunc(23, 5);
+
+// function mulFunction(a, b){
+//     console.log(a * b);
+// }
+// mulFunction(12, 6);
+
+// function mulFunction(a, b){
+//     return a * b;
+// }
+// let total = mulFunction(2, 5);
+// console.log(total);
+
+// function countVowels(str){
+//     let count = 0;
+//     for (char of str){
+//         if (char === "a"
+//             || char === "e"
+//             || char === "i"
+//             || char === "o"
+//             || char === "u"
+//         ){
+//             count++;
+//         }
+//     }
+//     return count;
+// }
+// countVowels("Hello Javascript");
+
+// Arrow Function 
+// const addNum = (a, b) => {
+//     console.log(a + b);
+// }
+// addNum(5, 19);
+
+
+
+
+
+
+
+
