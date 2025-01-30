@@ -853,10 +853,65 @@
 // }
 // addNum(5, 19);
 
+// let countVowels = (str) =>{
+//     let count = 0;
+//     for (char of str){
+//         if(char === "a" || char === "e" || char === "o" || char === "i" || char === "u"){
+//             count++;
+//         }
+//     }
+//     return count;
+// };
+// let vowels = countVowels("Javascript");
+// console.log(vowels);
 
+// forEach loop in array 
+// let marks = [23, 65, 76, 87, 34];
+// marks.forEach(function printMark(mark){
+//     console.log(mark);
+// })
 
+// let names = ["tony", "spider", "captain", "thor", "hulk"];
+// names.forEach(function namePrint(name){
+//     console.log(name)
+// })
 
+// Using Arrow function 
+//  let names = ["tony", "spider", "captain", "thor", "hulk"];
+// names.forEach((name) => {
+//     console.log(name);
+// })
 
+// let names = ["tony", "spider", "captain", "thor", "hulk"];
+// names.forEach((name, idx, names) => {
+//     console.log(name, idx, names);
+// })
 
+// let cars = ["alto", "nano", "thar", "scorpio"];
+// cars.forEach((cars, idx, arr) =>{
+//     console.log(`name of the car is ${cars}, the idex value of the car is ${idx} and the array is ${arr} `)
+// })
 
+// let cars = ["alto", "nano", "thar", "scorpio"];
+// cars.forEach(function (car, idx, arr){
+//     console.log(`name of the car is ${cars}, the idex value of the car is ${idx} and the array is ${arr} `);
+// })
 
+//Qs. For a given array of numbers, print the square of each value using the forEach loop.
+// let nums = [2, 3, 4, 5, 6];
+// nums.forEach((num) => {
+//     console.log(num * num);
+// })
+
+// let arr = [1, 2, 3, 4, 5, 6];
+// arr.forEach(function(val, n){
+//     n = val;
+//     console.log(val * n);
+// })
+
+// Using Arrow Function
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// arr.forEach((val, n) => {
+//     n = val;
+//     console.log(val * n);
+// })

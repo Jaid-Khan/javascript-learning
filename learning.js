@@ -1163,3 +1163,54 @@ console.log("Your Grade is ", grade);*/
 //     }
 //     return count;
 // }
+
+// forEach loop in Array 
+// let arr = [1, 2, 3, 4, 5, 6];
+// arr.forEach(function printValue(val){
+//     console.log(val);
+// }
+// ) 
+
+// for each using arrow function 
+// let arr = [1, 2, 3, 4, 5, 6];
+// arr.forEach((val) =>{
+//     console.log(val);
+// });
+
+// let arr = ["pune", "delhi", "mumbai", "agra"];
+// arr.forEach((city) => {
+//     console.log(city);
+// })
+
+// let arr = ["pune", "delhi", "mumbai", "agra"];
+// arr.forEach((city) => {
+//     console.log(city.toUpperCase());
+// });
+
+// let arr = ["pune", "delhi", "mumbai", "agra"];
+// arr.forEach((city, idx, arr) => {
+//     console.log(city, idx, arr);
+// });
+
+//Qs. For a given array of numbers, print the square of each value using the forEach loop.
+// let nums = [2, 3, 4, 5, 6];
+// nums.forEach((num) => {
+//     console.log(num * num);
+// })
+
+// let nums = [2, 3, 4, 5, 6];
+// nums.forEach(function(num){
+//     console.log(num * num);
+// })
+
+// let nums = [23, 12, 56, 45];
+// let calcSquare = ((num) => {
+//     console.log(num * num)
+// });
+// nums.forEach(calcSquare)
+
+// let nums = [23, 12, 56, 45];
+// function calcSquare(val){
+//     console.log(val * val);
+// };
+// nums.forEach(calcSquare);
