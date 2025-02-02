@@ -1168,8 +1168,7 @@ console.log("Your Grade is ", grade);*/
 // let arr = [1, 2, 3, 4, 5, 6];
 // arr.forEach(function printValue(val){
 //     console.log(val);
-// }
-// ) 
+// }) 
 
 // for each using arrow function 
 // let arr = [1, 2, 3, 4, 5, 6];
@@ -1214,3 +1213,112 @@ console.log("Your Grade is ", grade);*/
 //     console.log(val * val);
 // };
 // nums.forEach(calcSquare);
+
+// Some More Array Methods
+// Map 
+// Creates a new array with the result of some operation. The value its callback returns are used to form new array.
+// let nums = [67, 52, 39];
+// nums.map((val) =>{
+//     console.log(val);
+// });
+
+// let nums = [67, 52, 39];
+// let newArr = nums.map((val) => {
+//     return(val);
+// })
+// console.log(newArr)
+
+// let nums = [67, 52, 39];
+// let newArr = nums.map((val) => {
+//     return(val * val);
+// })
+// console.log(newArr);
+// console.log(nums);
+
+// let arr = [1, 2, 3, 4, 5];
+// let newArr = arr.map((val) => {
+//     return val * 2;
+// })
+// console.log(newArr)
+
+// let arr = [1, 2, 3, 4, 5];
+// let newArr = arr.map(function(val){
+//     return val;
+// })
+// console.log(newArr);
+
+// Some More Array Methods
+// Filter 
+// Creates a new Array of Elements that give true for a condition/filter. 
+
+// To Filter Even Values From The Array 
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// let evenArr = arr.filter((val) =>{
+//     return val % 2 === 0;
+// })
+// console.log(evenArr);
+
+// To Filter Odd Values From The Array 
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// let evenArr = arr.filter((val) =>{
+//     return val % 2 !== 0;
+// })
+// console.log(evenArr);
+
+// Some More Array Methods
+// Reduce
+//Peroforms some operation & reduces the array to a single value. it returns that single value.
+
+// let arr = [1,2, 3, 4];
+// const output = arr.reduce((res, val) => {
+//     return (res + val);
+// })
+// console.log(output);
+
+//To print the largest number in the array
+// let arr = [ 2, ,1, 6, 9, 3, 8];
+// const output = arr.reduce((pre, curr) =>{
+//     return pre > curr ? pre :curr;
+// })
+// console.log(output);
+
+// To print the Smallest number in the array
+// let arr = [ 2, ,1, 6, 9, 3, 8];
+// const output = arr.reduce((pre, curr) =>{
+//     return pre < curr ? pre :curr;
+// })
+// console.log(output);
+
+// Qs. We are Given Array of marks of students. Filter out the marks of student that scored 90.
+// let marks = [97, 64, 32, 49, 99, 96, 86];
+// const toppers = marks.filter((val) =>{
+//     return val > 90;
+// })
+// console.log(toppers);
+
+// Qs. take a number as an input from the user. Create an array of number from 1 to n.
+// let n = prompt("Enter a Number : ");
+// arr = [];
+// for (i=1; i<=n; i++){
+//     arr[i-1] = i;
+// }
+// console.log(arr);
+
+// Use the reduce method to calculate sum of all numbers in the Array.
+// Use the reduce method to calculate product(Factorial) of all numbers in the Array 
+// let n = prompt("Enter Your Number");
+// let arr = [];
+// for (i = 1; i <= n; i++){
+//     arr[i-1] = i;
+// }
+// console.log("Array of n =", arr);
+//Calculating Sum Using Reduce
+// let sum = arr.reduce((res, curr) => {
+//     return res + curr;
+// })
+// console.log("Sum =", sum);
+//Calculating Product(Factorial) Using Reduce
+// let factorial = arr.reduce((res, curr) =>{
+//     return res * curr; 
+// })
+// console.log("Factorial = ", factorial);

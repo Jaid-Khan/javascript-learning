@@ -915,3 +915,139 @@
 //     n = val;
 //     console.log(val * n);
 // })
+
+// let arr = [25, 78, 98, 64];
+// arr.forEach(function(val){
+//     console.log(val*val);
+// })
+
+// let arr = [25, 78, 98, 64];
+// arr.forEach((val) => {
+//     console.log(val * val);
+// } )
+
+// let arr = [1, 2, 3, 4, 5, 6];
+// function squareFunc(val){
+//     console.log(val * val);
+// };
+// arr.forEach(squareFunc);
+
+// let arr = [1, 2, 3, 4, 5, 6];
+// let squareFunc = (val) =>{
+//     console.log(val * val);
+// };
+// arr.forEach(squareFunc);
+
+// let arr = [1, 2, 3, 4, 5, 6];
+// arr.forEach ((val) => {
+//     console.log(val * val);
+// });
+
+// Some More Array Method 
+// Map   
+
+// let arr = [1, 2, 3, 4, 5];
+// let newArr = ((val) =>{
+//     console.log(val * 2);
+// })
+// arr.map(newArr);
+
+// ________________
+
+// let arr = [1, 2, 3, 4, 5];
+// let NewArr = arr.forEach(function(val){
+//     return val *2;
+// });
+// console.log(NewArr) 
+
+// let arr = [1, 2, 3, 4, 5];
+// let newArr = arr.forEach((val) => {
+//     return val *2;
+// })
+// console.log(newArr)
+
+// let arr = [1, 2, 3, 4, 5];
+// let newArr = arr.map(function(val){
+//     return val * 2;
+// });
+// console.log(newArr);
+
+// let arr = [1, 2, 3, 4, 5];
+// let newArr = arr.map((val) =>{
+//     return val * 2;
+// });
+// console.log(newArr)
+
+// Filter 
+
+//Printing Even Number Only From Array Using filter Mehtod 
+// let arr = [23, 54, 65, 24, 97, 62, 33, 42, 90, 73, 88];
+// let newArr = arr.filter(function(val){
+//     return val % 2 === 0;
+// })
+// console.log(newArr);
+
+//Printing Odd Number Only From Array Using filter Mehtod 
+// let arr = [23, 54, 65, 24, 97, 62, 33, 42, 90, 73, 88];
+// let newArr = arr.filter((val) =>{
+//     return val % 2 !== 0;
+// })
+// console.log(newArr);
+
+//Reduce
+// let arr = [1,2, 3, 4, 5];
+// const redOutput = arr.reduce((pre, curr) =>{
+//     return pre + curr;
+// })
+// console.log(redOutput);
+
+//To Print Highest Number of an array
+// let arr = [32, 45, 101, 154, 65, 78, 12];
+// const redOutput = arr.reduce((pre, curr) =>{
+//     return pre > curr ? pre : curr;
+// })
+// console.log(redOutput)
+
+//To Print Highest Number of an array
+// let arr = [32, 45, 101, 154, 65, 78, 12];
+// const redOutput = arr.reduce((pre, curr) =>{
+//     if(pre > curr){
+//         return pre;
+//     }
+//     else{
+//         return(curr);
+//     };
+// })
+// console.log(redOutput)
+
+// Qs. take a number as an input from the user. Create an array of number from 1 to n.
+// let n = prompt("Enter Your Number: ");
+// arr = [];
+// for (i= 1; i <= n; i++){
+//     arr.push(i);
+// }
+// console.log(arr);
+
+// Qs. take a number as an input from the user. Create an array of number from 1 to n.
+// Use the reduce method to calculate sum of all numbers in the Array.
+// Use the reduce method to calculate product(Factorial) of all numbers in the Array 
+// let n = prompt("Enter Your Number: ");
+// let arr = [];
+// for (i=1; i<=n; i++){
+//     arr.push(i);
+// }
+// console.log(arr);
+
+//Calculating Sum Using Reduce
+// let sum = arr.reduce((res, curr) =>{
+//     return res + curr;
+// })
+// console.log(`The Sum of the array is ${sum}`);
+// //Calculating Sum Using Reduce
+// let factorial = arr.reduce((res, curr) =>{
+//     return res * curr;
+// })
+// console.log(`The Product of the array is ${factorial}`);
+
+
+
