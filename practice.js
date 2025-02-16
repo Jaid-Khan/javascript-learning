@@ -797,7 +797,7 @@
 // console.log(companies);
 // companies.push("Amazon");
 // console.log(companies);
- 
+
 // Function 
 // function myfunction(msg){
 //     console.log(msg);
@@ -1048,6 +1048,3 @@
 //     return res * curr;
 // })
 // console.log(`The Product of the array is ${factorial}`);
-
-
-
