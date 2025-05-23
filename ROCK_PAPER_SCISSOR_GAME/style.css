@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Game choices container */
+.choices {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.choice {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid #333;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.choice:hover {
+    transform: scale(1.1);
+}
+
+.choice img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Score board */
+.score-board {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 30px;
+}
+
+.score {
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.score p:first-child {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.score p:last-child {
+    font-size: 1rem;
+    color: #777;
+}
+
+/* Message container */
+.msg-container {
+    margin-top: 20px;
+}
+
+#msg {
+    font-size: 1.5rem;
+    padding: 15px 20px;
+    border-radius: 8px;
+    background-color: #ccc;
+    display: inline-block;
+    color: #fff;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .choices {
+        gap: 20px;
+    }
+
+    .choice {
+        width: 100px;
+        height: 100px;
+    }
+
+    .score-board {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .choice {
+        width: 80px;
+        height: 80px;
+    }
+
+    #msg {
+        font-size: 1.2rem;
+        padding: 10px 15px;
+    }
+}

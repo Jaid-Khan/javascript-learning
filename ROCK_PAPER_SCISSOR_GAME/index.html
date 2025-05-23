@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- Sets character encoding -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Makes website responsive -->
+    <link rel="stylesheet" href="./style.css"> <!-- Links external CSS -->
+    <title>Rock Paper Scissors Game</title> <!-- Page title -->
+</head>
+<body>
+    <h1>Rock Paper Scissors</h1> <!-- Heading of the game -->
+
+    <!-- Container for choices -->
+    <div class="choices" id="rock"> 
+        <div class="choice"> <!-- Rock choice (image only, no ID) -->
+            <img src="./IMG/rock.png" alt="">
+        </div>
+        <div class="choice" id="paper"> <!-- Paper choice with ID -->
+            <img src="./IMG/paper.jpeg" alt="">
+        </div>
+        <div class="choice" id="scissor"> <!-- Scissor choice with ID -->
+            <img src="./IMG/scissor.jpeg" alt="">
+        </div>
+    </div>
+
+    <!-- Score display area -->
+    <div class="score-board">
+        <div class="score">
+            <p id="userScore">0</p> <!-- User score display -->
+            <p>You</p>
+        </div>
+        <div class="score">
+            <p id="computerScore">0</p> <!-- Computer score display -->
+            <p>Computer</p>
+        </div>
+    </div>
+
+    <!-- Message container -->
+    <div class="msg-container">
+        <p id="msg">Play Your Move</p> <!-- Displays game status -->
+    </div>
+
+    <!-- Linking external JS file -->
+    <script src="./script.js"></script>
+</body>
+</html>
